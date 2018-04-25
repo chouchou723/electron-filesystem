@@ -70,7 +70,7 @@
             title: '密码不能为空',
             duration: 2
           })
-        } else if (this.login.password.length < 6) {
+        } else if (this.login.password.length < 2) {
           return this.$Notice.error({
             title: '密码不能少于6个字符',
             duration: 2
